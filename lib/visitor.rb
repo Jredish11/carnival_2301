@@ -4,6 +4,7 @@ class Visitor
               :height, 
               :spending_money,
               :preferences
+  attr_writer :spending_money
   def initialize(name, height, spending_money)
     @name = name
     @height = height
